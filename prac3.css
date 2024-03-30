@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.nav-bar{
+    height: 60px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-bar-logo{
+    height: 40px;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-right: 5px;
+    padding-right: 10px;
+    
+}
+
+.logo{
+    background-image: url(amazon_logo1.png);
+    background-size: cover;
+    height: 30px;
+    width: 100px; 
+      
+}
+
+.nav-location{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+      
+}
+
+.nav-locate{
+    font-size: 14px;
+    display: flex;
+    margin-top: 3px;
+}
+
+.deliver{
+    font-size: 13px;
+    padding-left: 2px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 30px;
+    background-color: #febd68;
+    border-radius: 4px;
+    
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-language{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.flag{
+    width: 24px;
+    height: 16px;
+    background-image: url(indian_flag.jpg);
+    background-size: cover;
+    margin-right: 7px;
+}
+
+.language{
+    width: 45px;
+    height: 22px;
+    background-color: #0f1111;
+    color: beige;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-accounts{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.lists{
+    background-color: #0f1111;
+    color: beige;
+    height: 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.nav-orders{
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.orders{
+    width: 70px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.returns{
+    width: 70px;
+    height: 16px;
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+.panel{
+    height: 35px;
+    background-color: rgb(57, 54, 54);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.panel-all{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    padding-left: 20px;
+    color: #f3f3f3;
+    align-items: center;
+}
+
+.panel-all p{
+    padding-left: 10px;
+}
+
+.panel-options {
+    display: flex;
+    margin-right: 15px;
+}
+
+.panel p{
+    margin-right: 20px;
+}
+
+.hero-image{
+    background-image: url(clothin.jpg);
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.blurr{
+    position: absolute;
+    top: 370px;
+    height: 150px;
+    width: 100%;
+    filter: blur(10px);
+    background-color: rgb(209, 33, 33);
+}
+
+.boxa{
+    position: absolute;
+    top: 350px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 400px;
+    width: 28%;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 770;
+    padding-left: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+.back-grey{
+    top: 700px;
+    height: 800px;
+    background-color: #f3f3f3;
+}
+
+.innerbox1{
+    padding-top: 5px;
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    display: flex;
+}
+.innerbox2{
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    display: flex;
+}
+
+.img1{
+    width: 40%;
+    height: 160px;
+    background-color: #f3f3f3;
+    margin-right: 25px;
+    
+}
+
+.cam1{
+    height: 90%;
+    width: 90%;
+    background-image: url(cam1.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    width: 40%;
+    height: 160px;
+    background-color: #f3f3f3; 
+}
+
+.cam2{
+    height: 90%;
+    width: 90%;
+    background-image: url(cam2.jpg);
+    background-size: 90px 150px;
+    background-repeat: no-repeat;
+
+}
+
+.img3{
+    width: 40%;
+    height: 160px;
+    background-color: #f3f3f3;
+    margin-right: 25px;
+    
+}
+
+.cam3{
+    background-image: url(cam3.jpg);
+    background-size:cover;
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+
+}
+
+.img4{
+    width: 40%;
+    height: 160px;
+    background-color: #f3f3f3;
+}
+
+.cam4{
+    background-image: url(cam4.jpg);
+    
+    height: 90%;
+    width: 90%;
+    background-size: 80px 130px;
+    background-repeat: no-repeat;
+
+}
+
+footer{
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background-color: #0e2338;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-div{
+    height: 250px;
+    width: 80%;
+    background-color: #0e2338;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-box{
+    height: 200px;
+    width: 20%;
+    background-color: #0e2338;
+    color: aliceblue;
+    
+    margin-top: 40px;
+}
+
+.cam5{
+    background-image: url(cam5.jpg);
+    background-size:cover;
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+
+}
+
+.cam6{
+    background-image: url(cam6.jpg);
+    background-size:cover;
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+
+}
+
+.cam7{
+    background-image: url(cam7.jpg);
+    background-size:cover;
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+
+}
+
+.cam8{
+    background-image: url(cam8.jpg);
+    background-size:cover;
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+
+}
+
+
+
